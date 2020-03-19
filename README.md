@@ -31,3 +31,13 @@ Commiting changes
 ```
 ~zod:dojo> |commit %home
 ```
+
+Watch for changes in `pkg/interface`
+```bash
+$ npx gulp watch
+```
+
+Build `pkg/interface` as prod
+```bash
+$ npx gulp bundle-prod
+```
