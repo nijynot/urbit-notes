@@ -19,3 +19,15 @@ Set up a development planet/galaxy
 ```bash
 $ ./urbit -F zod
 ```
+
+Mount and unmounting home
+```
+~zod:dojo> |mount %
+~zod:dojo> |mount /=home=
+~zod:dojo> |unmount %
+```
+
+Commiting changes
+```
+~zod:dojo> |commit %home
+```
