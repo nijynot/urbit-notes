@@ -8,3 +8,6 @@ I don't expect this to be merged into master, so maybe I should create this as a
 
 #### Logging tile
 This tile should show the urbit dojo log. When you're on mobile, you can't ssh into your e.g. digital ocean droplet, so would be useful if you could see your logs directly in your browser.
+
+#### Use of `this.refs` is deprecated
+File `~/urbit/pkg/interface/chat/src/js/components/lib/message.js` on line `19:5`.
